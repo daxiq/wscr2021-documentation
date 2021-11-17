@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a3a3a;
+      }
+
+      .cls-2 {
+        fill: #00b1ff;
+      }
+
+      .cls-3 {
+        font-size: 12px;
+        fill: #838383;
+        font-family: FranklinGothic-Book, Franklin Gothic Book;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <title>logosm</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Desk">
+      <g>
+        <path class="cls-1" d="M26.31,0A10.69,10.69,0,0,0,15.62,10.69v4.93H10.53A10.53,10.53,0,0,0,0,26.16v.31A10.53,10.53,0,0,0,10.53,37h.31A10.53,10.53,0,0,0,21.38,26.47V21.38h4.93A10.69,10.69,0,1,0,26.31,0ZM15.62,26.45a4.8,4.8,0,0,1-4.8,4.8h-.27a4.8,4.8,0,0,1-4.8-4.8v-.27a4.8,4.8,0,0,1,4.8-4.8h5.07ZM26.31,15.62H21.38V10.69a4.93,4.93,0,1,1,4.93,4.93Z"/>
+        <circle class="cls-2" cx="30.95" cy="30.27" r="4.71"/>
+      </g>
+    </g>
+  </g>
+</svg>

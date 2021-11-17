@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WSCR 2021',
+  tagline: 'Documentation and Solution step by step',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
@@ -43,21 +43,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Design Pro',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Design Pro',
+          src: 'img/logosm.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Step by step',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /* {
+            type: 'doc',
+            docId: 'solution',
+            position: 'left',
+            label: 'Solution',
+          }, */
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/daxiq/wscr2021-documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,28 +72,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'About',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Installation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Documentation',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Laravel 8.x',
+                href: 'https://laravel.com/docs/8.x',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Tailwind CSS',
+                href: 'https://tailwindcss.com/docs',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Vue 3.x',
+                href: 'https://v3.vuejs.org/guide/introduction.html',
               },
             ],
           },
@@ -96,17 +101,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Design Pro. Built with 🤍.`,
       },
       prism: {
         theme: lightCodeTheme,
