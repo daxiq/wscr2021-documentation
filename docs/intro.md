@@ -2,34 +2,38 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Project Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+:::tip Before start
 
-## Getting Started
+This solution is based on Windows OS and some steps could differ between OSs and enviroments
 
-Get started by **creating a new site**.
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+In order to start the project wee need to have installed the following software: 
+- XAMPP - for our localhost enviroment and 
+- Composer - in order to install Laravel
 
-## Generate a new site
+## Installing XAMPP
 
-Generate a new Docusaurus site using the **classic template**:
+Since Laravel is a PHP framework and PHP is a server-side scripting language you will need a server to see your PHP files.
+Anyway, you can use programs to emulate a server in your PC.
+XAMPP either WampServer: Install Apache, MySql and PHP at Once
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+**[Get XAMPP](https://www.apachefriends.org/es/index.html)** and follow the installation steps from their website.
 
-## Start your site
+## Installing Composer
 
-Run the development server:
+Composer is a software known as a dependency management tool in PHP. It installs several PHP packages according to the version or environment of the installed PHP. To install Laravel, Composer must be installed.
 
-```shell
-cd my-website
+Go to [https://getcomposer.org/](https://getcomposer.org/) and install Composer-Setup.exe from the Download link.
 
-npx docusaurus start
-```
+:::warning Composer Setup
+During installation, you will be asked for the location of the PHP executable.
 
-Your site starts at `http://localhost:3000`.
+The default location in XAMPP is `C:\xampp\php\php.exe`
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+If XAMPP is installed in a different disk, search and select the path where php.exe is located inside your XAMPP.
+:::
+
+Now, we are ready to start developing our Laravel project 😃.

@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Installation',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        How to install the project in your machine and solution for some common issues that you could find.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Step by Step Solution',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Approach taken for solving the test project. Notice that this solution is just a way and is not the only one.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Additional features',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You may notice some additional functionalities throughout this documentation.
       </>
     ),
   },
